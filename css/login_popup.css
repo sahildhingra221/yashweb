@@ -1,0 +1,34 @@
+/*Popup content container */
+#login-popup-content{
+	background-color:#000;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;	
+	color:#FFF;
+	display:none;
+	padding:50px 80px;
+	position:fixed;
+	z-index:1002;	/* Any value above all content */
+	text-align:center;
+	margin:50px 0px;
+}
+
+/*login*/
+
+.input-group{
+	margin-top:20px;
+}
+
+.input-group input{
+	width:250px;
+	outline:none;
+	background:none;
+}
+
+.awesome-form input{
+	margin-top:5px;
+}
+
+form a{
+	text-decoration:none;
+}

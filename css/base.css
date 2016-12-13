@@ -1,0 +1,61 @@
+*{box-sizing:border-box;}
+html,body{
+	font-family:sans-serif;
+	height:100%;
+	
+}
+p{
+	line-height: 1.2;
+	padding: 10px;
+}
+#page-wrapper{
+	padding:10px;
+	max-width:1024px;;
+	margin: 0 auto;
+}
+#page-heading{
+	overflow: hidden;
+	width:190px;
+	height:60px;
+	margin-top:-15px;
+}
+#page-heading-title{
+	float:left;
+	font-size:1.3em;
+	font-weight:bold;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:20px;
+	width:75%;
+	}
+#page-heading-control-panel{
+	float:left;
+	padding-top:5px;
+	padding-right:25px;
+	text-align:right;
+	width:;
+}
+#page-content{
+	background-color:#98BFB7;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	border-radius:15px;	
+	clear:both;
+}
+#logout-button {display:none;}
+#popup-overlay-bg{
+	background-color:#000;
+	/*background-color:rgba(0,0,0,0.6); */ /* Not compatible with IE 7 IE 8 */
+	display:none;
+	height:100%;
+	left:0;
+	margin:auto;
+	opacity:0.6; /* Not compatible with IE 7. Limited IE 8:  http://caniuse.com/#search=opacity */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE 8 */
+	filter: alpha(opacity=50); /* IE 7 */	
+	position:fixed; 
+	top:0;
+ 	width:100%;
+ 	z-index:1001;
+  }
+
